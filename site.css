@@ -1,12 +1,140 @@
-html 
+.bgdefaut
 {
-
-background-image:url('images/cupcakes2.jpg');
+background-image:url('images/back2.png');
 background-repeat: no-repeat;
 background-size: 100% 100%;
  background-position: center center;
 height: 100%;
 }
+
+.bg2
+{
+background-image:url('images/style2.jpeg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 150%;
+}
+
+.bg3
+{
+background-image:url('images/style2.jpeg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 150%;
+}
+
+
+.bg4
+{
+background-image:url('images/style2.jpeg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 150%;
+}
+
+
+.bgpanier
+{
+background-image:url('images/commande.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 100%;
+}
+
+
+.bgpai
+{
+background-image:url('images/commande.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 100%;
+}
+
+.bgcommand
+{
+background-image:url('images/commande.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 100%;
+}
+
+.bgterm
+{
+background-image:url('images/commande.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 100%;
+}
+
+.bgpromo
+{
+background-image:url('images/back2.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 100%;
+}
+
+.bgconnexion
+{
+background-image:url('images/back11.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 100%;
+}
+
+.bgsite2
+{
+background-image:url('images/back2.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 100%;
+}
+
+
+
+
+#Bienvenue
+{
+  text-align: center;
+   padding-top: 3%;
+    padding-bottom:3%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 300%;
+    letter-spacing: .10em;
+    text-align: center;
+	
+}
+
+#YD
+{
+	
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Gabriela', serif;
+  font-size: 350%;
+  letter-spacing: .10em;
+  margin-left: 39%;
+  position: absolute;
+  top: 7%;
+  
+}
+
+
+
 
 #connexion
 {
@@ -23,20 +151,29 @@ float: right;
 
 float: left;
 }
+
+#panier
+{
+position: absolute;
+top: 1.5%;
+margin-left: 86%;
+width:1.5%;
+height:2.3%;
+}
 #France
 {
-margin-left: 5px; 
+margin-left: 1%; 
 float: left;
-width:20px;
-height:20px0px;
+width:1.1%;
+height:1.1%;
 }
 
 #English
 {
-margin-left: 5px;
+margin-left: 1%;
 float: left;
-width:20px;
-height:20px0px;
+width:1.1%;
+height:1.1%;
 }
 
 #menu-deroulant, #menu-deroulant ul
@@ -52,6 +189,7 @@ text-align:center;
 display:inline-block;
 position:relative;
 border-radius:8px 8px 0 0;
+background: url(images/back2.jpg)
 }
 
 #menu-deroulant ul li 
@@ -78,8 +216,6 @@ max-height:0;
 left: 0;
 right: 0;
 overflow:hidden;
--moz-transition: .8s all .3s;
--webkit-transition: .8s all .3s;
 transition: .8s all .3s;
 }
 
@@ -90,9 +226,1146 @@ max-height:15em;
 
 #menu-deroulant  li:first-child
 {
-background-color: white;
+background-color: #FFC0CB;
+background-image:linear-gradient(to bottom, #FFC0CB 0%, #FFC0CB 100%);
 }
 
+#menu-deroulant li:nth-child(2){
+background-color: #FFC0CB;
+background-image:linear-gradient(to bottom, #FFC0CB 0%, #FFC0CB 100%);
 }
+#menu-deroulant li:nth-child(3){
+background-color: #FFC0CB;
+background-image:linear-gradient(to bottom, #FFC0CB 0%, #FFC0CB 100%);
+}
+#menu-deroulant li:last-child{
+background-color: #FFC0CB;
+background-image:linear-gradient(to bottom, #FFC0CB 0%, #FFC0CB 100%);
+}
+
+#menu-deroulant li:first-child li{
+background:#FFC0CB;
+}
+#menu-deroulant li:nth-child(2) li{
+background:#FFC0CB;
+}
+#menu-deroulant li:nth-child(3) li{
+background:#FFC0CB;
+}
+#menu-deroulant li:last-child li{
+background:#FFC0CB;
+}
+
+#menu-deroulant li:first-child:hover, #menu-deroulant li:first-child li:hover{
+background:#FFC0CB;
+}
+#menu-deroulant li:nth-child(2):hover, #menu-deroulant li:nth-child(2) li:hover{
+background:#FFC0CB;
+}
+#menu-deroulant li:nth-child(3):hover, #menu-deroulant li:nth-child(3) li:hover{
+background:#FFC0CB;
+}
+#menu-deroulant li:last-child:hover, #menu-deroulant li:last-child li:hover{
+background:#FFC0CB;
+}
+
+#menu-deroulant a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:black;
+font-family:arial;
+}
+#menu-deroulant ul a{
+padding:8px 0;
+}
+#menu-deroulant li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menu-deroulant li:hover a, #menu-deroulant li li:hover a{
+color:#000;
+}
+
+#recherche
+{
+	font-family: 'Arial', serif;
+    font-size: 100%;
+   
+}
+
+#promow
+{
+	height:50%;
+	width:34%;
+	position:absolute;
+	top:40%;
+	left: 33%;
+	border-radius: 5%;
+	
+}
+
+#recette
+{
+
+position: absolute;
+top: 30%;
+margin-left: 75%;
+border-radius: 5%;	
+}
+
+
+
+
+
+
+
+#page1
+{
+
+background-image:url('images/style2.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 100%;
+}
+
+{
+
+background-image:url('images/style2.jpeg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 150%;
+}
+
+#parfum
+{
+	text-align: center;
+   padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 450%;
+    letter-spacing: .10em;
+    text-align: center;
+}
+
+#nutella
+{
+width:25%;
+height:25%;
+border-radius: 5%;
+}
+
+#fraise
+{
+width:25%;
+height:25%;
+border-radius: 5%;
+}
+
+#fr
+{
+width:25%;
+height:25%;
+border-radius: 5%;
+}
+
+#logo
+{
+width:5%;
+height:5%;	
+}
+
+#prix1
+{
+	color: brown;
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 45%;
+}
+
+#parf1
+{
+	color: brown;
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 40%;
+}
+
+#nbr
+{
+	color: brown;
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+    margin-left : 25%;
+	position: absolute;
+	top: 50%;	
+}
+
+#prix2
+{
+	color: purple;
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 80%;
+}
+
+#parf2
+{
+	color: purple;
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+    margin-left : 25%;
+	position: absolute;
+	top: 85%;	
+}
+
+#nbr2
+{
+	color: purple;
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 90%;	
+}
+
+#prix3
+{
+	color: red;
+	font-family: 'Arial', serif;
+    font-size:110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 110%;
+}
+
+#parf3
+{
+	color: red;
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 115%;
+}
+
+#nbr3
+{
+	color: red;
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 120%;
+}
+#ajouter
+{
+	margin-left : 40%;
+	position: absolute;
+	top: 127%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+#theme
+{
+text-align: center;
+padding-top: 3%;
+padding-bottom: 3%;
+margin-top: 0;
+margin-bottom: 0;
+font-family: 'Gabriela', serif;
+font-size: 450%;
+letter-spacing: .10em;
+text-align: center
+}
+
+#ST
+{
+width:25%;
+height:25%;	
+border-radius: 5%;
+}
+
+#Disney
+{
+width:25%;
+height:25%;
+border-radius: 5%;		
+}
+
+#Kawaii
+{
+width:25%;
+height:25%;	
+border-radius: 5%;	
+}
+
+#theme1
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 40%;
+}
+
+#prix4
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 45%;
+}
+
+#unite
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 50%;
+}
+
+#theme2
+{
+    font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 75%;
+}
+
+#prix5
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 80%;
+}
+
+#unite2
+{
+    font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 85%;
+}
+
+#theme3
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 110%;
+}
+
+#prix6
+{
+    font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 115%;
+}
+
+#unite3
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 120%;
+}
+
+#ajouter1
+{
+	margin-left : 25%;
+	position: absolute;
+	top: 55%;
+}
+
+#ajouter2
+{
+	margin-left : 25%;
+	position: absolute;
+	top: 90%;
+}
+
+#ajouter3
+{
+	margin-left : 25%;
+	position: absolute;
+	top: 125%;
+}
+
+
+
+
+
+
+
+
+#accessoires
+{
+	text-align: center;
+   padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 450%;
+    letter-spacing: .10em;
+    text-align: center;
+}
+
+
+#cups
+{
+width:25%;
+height:25%;	
+border-radius: 5%;	
+}
+
+#stand
+{
+width:25%;
+height:25%;
+border-radius: 5%;		
+}
+
+#box
+{
+width:25%;
+height:25%;
+border-radius: 5%;		
+}
+
+#accessoire1
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 40%;
+}
+
+#price1
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 45%;
+}
+
+#unite4
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 50%;
+}
+
+#lot
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 55%;	
+}
+
+#add1
+{
+	
+	margin-left : 25%;
+	position: absolute;
+	top: 60%;
+}
+
+#accessoire2
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 75%;
+}
+
+#price2
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 80%;
+}
+
+#standacc
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 85%;
+}
+
+#add2
+{
+	margin-left : 25%;
+	position: absolute;
+	top: 90%;
+}
+
+#accessoire3
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 105%;
+}
+
+#price3
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 110%;
+}
+
+#unite5
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 115%;
+}
+
+#box1
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 120%;
+}
+
+#add3
+{
+	margin-left : 25%;
+	position: absolute;
+	top: 125%;
+}
+
+
+
+#wedding
+{
+	text-align: center;
+   padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 70px;
+    letter-spacing: .10em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+#nutellapanier
+{
+margin-left:10%;
+width:10%;
+height:0%;
+border-radius: 5%;
+}
+
+#fraisepanier
+{
+margin-left:10%;
+width:10%;
+height:0%;
+border-radius: 5%;
+}
+
+#frpanier
+{
+margin-left:10%;
+width:11%;
+height:0%;
+border-radius: 5%;
+}
+
+#STpanier
+{
+margin-top: 13%;
+margin-left:10%;
+width:10%;
+height:0%;	
+border-radius: 5%;
+}
+
+#standpanier
+{
+margin-left: 9%;
+width:12%;
+height:0%;
+border-radius: 5%;		
+}
+
+#nutella1
+{
+position:absolute;
+top: 25%;
+margin-left: 12%;
+}
+
+#nbr4
+{
+position: absolute;
+top: 28%;
+margin-left: 14%;
+}
+
+#fraise1
+{
+position:absolute;
+top: 25%;
+margin-left: 32%;
+}
+
+#nbr5
+{
+position:absolute;
+top: 28%;
+margin-left: 34%;	
+}
+
+#fr1
+{
+position:absolute;
+top: 25%;
+margin-left: 51%;	
+}
+
+#nbr6
+{
+position:absolute;
+top: 28%;
+margin-left: 55%;	
+}
+
+#ST2
+{
+position:absolute;
+top: 67%;
+margin-left: 13%;	
+}
+
+#ST3
+{
+position:absolute;
+top: 70%;
+margin-left: 12.5%;		
+}
+
+#stand2
+{
+position:absolute;
+top: 67%;
+margin-left: 32%;	
+}
+
+#stand3
+{
+position:absolute;
+top: 70%;
+margin-left: 34%;		
+}
+
+#command
+{
+position: absolute;
+top:13%;
+right: 9%;
+}#nutellapanier
+{
+margin-left:10%;
+width:10%;
+height:0%;
+border-radius: 5%;
+}
+
+#fraisepanier
+{
+margin-left:10%;
+width:10%;
+height:0%;
+border-radius: 5%;
+}
+
+#frpanier
+{
+margin-left:10%;
+width:11%;
+height:0%;
+border-radius: 5%;
+}
+
+#STpanier
+{
+margin-top: 13%;
+margin-left:10%;
+width:10%;
+height:0%;	
+border-radius: 5%;
+}
+
+#standpanier
+{
+margin-left: 9%;
+width:12%;
+height:0%;
+border-radius: 5%;		
+}
+
+#nutella1
+{
+position:absolute;
+top: 26%;
+margin-left: 12%;
+}
+
+#nbr4
+{
+position: absolute;
+top: 28%;
+margin-left: 14%;
+}
+
+#fraise1
+{
+position:absolute;
+top: 26%;
+margin-left: 32%;
+}
+
+#nbr5
+{
+position:absolute;
+top: 28%;
+margin-left: 34%;	
+}
+
+#fr1
+{
+position:absolute;
+top: 26%;
+margin-left: 51%;	
+}
+
+#nbr6
+{
+position:absolute;
+top: 28%;
+margin-left: 55%;	
+}
+
+#ST2
+{
+position:absolute;
+top: 68%;
+margin-left: 13%;	
+}
+
+#ST3
+{
+position:absolute;
+top: 70%;
+margin-left: 12.5%;		
+}
+
+#stand2
+{
+position:absolute;
+top: 68%;
+margin-left: 32%;	
+}
+
+#stand3
+{
+position:absolute;
+top: 70%;
+margin-left: 34%;		
+}
+
+#command
+{
+position: absolute;
+top:13%;
+right: 9%;
+}
+
+
+
+
+
+
+#nom
+{
+position:absolute;
+left: 7%;
+}
+
+#prenom
+{
+position:absolute;
+top:22%;
+left: 8%;	
+}
+
+#adresse
+{
+position:absolute;
+top:32%;
+left: 10%;		
+}
+
+#cd
+{
+position:absolute;
+top:42%;
+left: 11%;	
+}
+
+#ville
+{
+position:absolute;
+top:52%;
+left: 16%;
+}
+
+#ae
+{
+position:absolute;
+top:62%;
+left: 15%;	
+}
+
+#phone
+{
+position:absolute;
+top:72%;
+left: 20%;	
+}
+
+#payer
+{
+position: absolute;
+top:13%;
+right: 9%;
+}
+
+
+
+
+
+#back
+{
+	width:3%;
+	height: 5%;
+	position:absolute;
+	bottom: 12%;
+	left: 7%;
+}
+
+#pay
+{
+	width:22%;
+	height:25%;
+	position:absolute;
+	top: 25%;
+	left: 12.5%;
+}
+
+
+
+#nomcarte
+{
+position:absolute;
+top: 50%;
+left: 13%;	
+}
+
+#numcarte
+{
+position:absolute;
+top: 55%;
+left: 13%;	
+}
+
+#expi
+{
+position:absolute;
+top: 60%;
+left: 13%;	
+}
+
+#terminer
+{
+position: absolute;
+top:13%;
+right: 9%;
+}
+
+
+
+
+#confirmation
+{
+	text-align: center;
+   padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 450%;
+    letter-spacing: .10em;
+    text-align: center;
+}
+
+#enregistre
+{
+	position:absolute;
+	left: 10%;
+	top: 34%;
+    font-family: 'Gabriela', serif;
+    font-size: 125%;
+    letter-spacing: .10em;
+  
+}
+
+#envoye
+{
+    position:absolute;
+	top: 39%;
+	left: 10%;
+    font-family: 'Gabriela', serif;
+    font-size: 125%;
+    letter-spacing: .10em;	
+}
+
+#contacter
+{
+	position:absolute;
+	top: 43%;
+	left: 10%;
+    font-family: 'Gabriela', serif;
+    font-size: 125%;
+    letter-spacing: .10em;
+}
+
+#merci
+{
+	position:absolute;
+	top: 47%;
+	left: 10%;
+    font-family: 'Gabriela', serif;
+    font-size: 125%;
+    letter-spacing: .10em;	
+}
+
+
+
+
+
+#promow2
+{
+	width: 50%;
+	height: 80%;
+	position: fixed;
+	left: 25%;
+	border-radius: 5%;	
+}
+
+
+
+
+
+
+
+
+#idconnexion
+{
+
+	position: absolute;
+	top:38%;
+	left: 40.9%;
+}
+
+#password
+{
+	position: absolute;
+	top:45%;
+	left: 39.8%;	
+}
+
+#connexion2
+{
+	position:absolute;
+	bottom: 40%;
+	left: 45%;
+	height:5%;
+	width:10%;
+	border-radius: 40%;
+	background-color:pink;
+}
+
+
+
+
+
+
+#deconnexion
+{
+	float: right;
+}
+
+#moncompte
+{
+	float: right;
+	text-align: right;
+	min-width: 120px;
+}
+
+
+
+
+
+
+
+
+
+#connexion3
+{
+	position:absolute;
+	bottom: 35%;
+	left: 45%;
+	height:5%;
+	width:10%;	
+	background-color: pink;
+	border-radius: 40%;
+}
+
+#confirmer2
+{
+	position:absolute;
+	top: 55%;
+	left: 40%;
+}
+
+#mp
+{
+    position:absolute;
+	top: 50%;
+	left: 34%;	
+}
+
+#confirmer
+{
+	position:absolute;
+	top: 45%;
+	left: 40%;
+}
+
+#mail
+{
+	position:absolute;
+	top: 40%;
+	left: 35.5%;
+}
+
+#id2
+{
+	position:absolute;
+	top: 35%;
+	left: 36.6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 

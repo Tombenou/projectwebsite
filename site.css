@@ -100,6 +100,15 @@ background-size: 100% 100%;
 height: 100%;
 }
 
+.bgcontact
+{
+background-image:url('images/cupcup2.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 100%;	
+}
+
 
 
 
@@ -1354,6 +1363,118 @@ right: 9%;
 	position:absolute;
 	top: 35%;
 	left: 36.6%;
+}
+
+
+
+
+
+
+
+
+
+
+#cn
+{
+text-align: center;
+   padding-top: 1%;
+    padding-bottom:1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 350%;
+    letter-spacing: .10em;
+    text-align: center;	
+}
+
+#iconphone
+{
+	position: absolute;
+	top:30%;
+	left:52.5%;
+	width:5%;
+}
+
+#iconemail
+{
+	position: absolute;
+	top:30%;
+	left:42.5%;
+	width:5%;
+}
+
+#contactmail
+{
+    position: absolute;
+	top:41%;
+    left:40.4%;	
+}
+
+#contactphone
+{
+	position: absolute;
+	top:41%;
+    left:52.6%;	
+}
+
+#faq
+{
+	position: absolute;
+	top:50%;
+    left:25%;	
+}
+
+#svp
+{
+    position: absolute;
+	top:55%;
+    left:25%;	
+}
+
+#contactnom
+{
+	position: absolute;
+	top:54.9%;
+    left:46.1%;
+}
+
+#contactprenom
+{
+	position: absolute;
+	top:59%;
+    left:45%;	
+}
+
+#contactemail
+{
+	position: absolute;
+	top:64%;
+    left:45.8%;
+}
+
+#contactnum
+{
+	position: absolute;
+	top:69%;
+    left:44%;
+}
+
+#contactmess
+{
+	position: absolute;
+	top:74%;
+    left:44.6%;
+}
+
+#submit
+{
+	position: absolute;
+	top:82%;
+    left:48.5%;
+	height:5%;
+	width:10%;
+	border-radius: 40%;
+	background-color:white;
 }
 
 

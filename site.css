@@ -110,6 +110,16 @@ height: 100%;
 }
 
 
+.bgwedding
+{
+background-image:url('images/back18.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+ background-position: center center;
+height: 100%;		
+}
+
+
 
 
 #Bienvenue
@@ -1475,6 +1485,129 @@ text-align: center;
 	width:10%;
 	border-radius: 40%;
 	background-color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+#wedding2
+{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom:1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 200%;
+    letter-spacing: .10em;
+    text-align: center;		
+}
+
+#wedding3
+{
+	text-align: center;
+    padding-top: 1%;
+    padding-bottom:1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 150%;
+    letter-spacing: .10em;
+    text-align: center;	
+}
+
+
+
+
+
+
+
+
+
+
+#horaire
+{
+	text-align: center;
+    padding-top: 1%;
+    padding-bottom:1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 300%;
+    letter-spacing: .10em;
+    text-align: center;		
+}
+
+#jour
+{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom:1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 150%;
+    letter-spacing: .10em;
+    text-align: center;	
+}
+
+#heure
+{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom:1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 100%;
+    letter-spacing: .10em;
+    text-align: center;	
+}
+
+#jour2
+{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom:1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 150%;
+    letter-spacing: .10em;
+    text-align: center;	
+}
+
+#heure2
+{
+	text-align: center;
+    padding-top: 1%;
+    padding-bottom:1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 100%;
+    letter-spacing: .10em;
+    text-align: center;	
+}
+
+#lieux
+{
+	text-align: center;
+    padding-top: 1%;
+    padding-bottom:1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 150%;
+    letter-spacing: .10em;
+    text-align: center;	
 }
 
 

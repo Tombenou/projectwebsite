@@ -125,8 +125,8 @@ height: 100%;
 #Bienvenue
 {
   text-align: center;
-   padding-top: 3%;
-    padding-bottom:3%;
+   padding-top: 1%;
+    padding-bottom:1%;
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Gabriela', serif;
@@ -136,20 +136,12 @@ height: 100%;
 	
 }
 
-#YD
+#ydlogo
 {
-	
-  padding-top: 3%;
-  padding-bottom: 3%;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Gabriela', serif;
-  font-size: 350%;
-  letter-spacing: .10em;
-  margin-left: 39%;
   position: absolute;
-  top: 7%;
-  
+  top:9%;
+  left:37.5%;
+  width:25%;
 }
 
 
@@ -157,18 +149,24 @@ height: 100%;
 
 #connexion
 {
-float: right;
+position: absolute;
+right:6%;
+top:1%;
 }
 
 #sinscrire
 {
-float: right;
+position: absolute;
+right:1%;
+top:1%;
 }
 
 #langue
 {
+position: absolute;
+left:1%;
+top:1%;
 
-float: left;
 }
 
 #panier
@@ -181,18 +179,20 @@ height:2.3%;
 }
 #France
 {
-margin-left: 1%; 
-float: left;
-width:1.1%;
-height:1.1%;
+position: absolute;
+left:5%;
+top:1.4%;
+width:1%;
+height:2%;
 }
 
 #English
 {
-margin-left: 1%;
-float: left;
-width:1.1%;
-height:1.1%;
+position: absolute;
+left:7%;
+top:1.4%;
+width:1%;
+height:2%;
 }
 
 #menu-deroulant, #menu-deroulant ul
@@ -208,7 +208,7 @@ text-align:center;
 display:inline-block;
 position:relative;
 border-radius:8px 8px 0 0;
-background: url(images/back2.jpg)
+
 }
 
 #menu-deroulant ul li 
@@ -306,6 +306,17 @@ text-transform:inherit;
 color:#000;
 }
 
+#menu-deroulant
+{
+	position:absolute;
+	top:25%;
+	left:37%;
+}
+
+
+
+
+
 #recherche
 {
 	font-family: 'Arial', serif;
@@ -333,30 +344,21 @@ margin-left: 75%;
 border-radius: 5%;	
 }
 
-
-
-
-
-
-
-#page1
+#qsn
 {
-
-background-image:url('images/style2.png');
-background-repeat: no-repeat;
-background-size: 100% 100%;
- background-position: center center;
-height: 100%;
+position: absolute;
+top: 30%;
+left: 2%;
+border-radius: 5%;	
 }
 
-{
 
-background-image:url('images/style2.jpeg');
-background-repeat: no-repeat;
-background-size: 100% 100%;
- background-position: center center;
-height: 150%;
-}
+
+
+
+
+
+
 
 #parfum
 {
@@ -577,6 +579,16 @@ border-radius: 5%;
 	top: 50%;
 }
 
+#nbrbox1
+{
+    font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+    margin-left : 25%;
+	position: absolute;
+	top: 55%;	
+}
+
 #theme2
 {
     font-family: 'Arial', serif;
@@ -605,6 +617,16 @@ border-radius: 5%;
 	margin-left : 25%;
 	position: absolute;
 	top: 85%;
+}
+
+#nbrbox2
+{
+    font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 90%;	
 }
 
 #theme3
@@ -637,25 +659,35 @@ border-radius: 5%;
 	top: 120%;
 }
 
+#nbrbox3
+{
+	font-family: 'Arial', serif;
+    font-size: 110%;
+    letter-spacing: .10em;
+	margin-left : 25%;
+	position: absolute;
+	top: 125%;	
+}
+
 #ajouter1
 {
 	margin-left : 25%;
 	position: absolute;
-	top: 55%;
+	top: 60%;
 }
 
 #ajouter2
 {
 	margin-left : 25%;
 	position: absolute;
-	top: 90%;
+	top: 95%;
 }
 
 #ajouter3
 {
 	margin-left : 25%;
 	position: absolute;
-	top: 125%;
+	top: 130%;
 }
 
 
@@ -857,122 +889,7 @@ border-radius: 5%;
 
 #nutellapanier
 {
-margin-left:10%;
-width:10%;
-height:0%;
-border-radius: 5%;
-}
-
-#fraisepanier
-{
-margin-left:10%;
-width:10%;
-height:0%;
-border-radius: 5%;
-}
-
-#frpanier
-{
-margin-left:10%;
-width:11%;
-height:0%;
-border-radius: 5%;
-}
-
-#STpanier
-{
-margin-top: 13%;
-margin-left:10%;
-width:10%;
-height:0%;	
-border-radius: 5%;
-}
-
-#standpanier
-{
-margin-left: 9%;
-width:12%;
-height:0%;
-border-radius: 5%;		
-}
-
-#nutella1
-{
-position:absolute;
-top: 25%;
-margin-left: 12%;
-}
-
-#nbr4
-{
-position: absolute;
-top: 28%;
-margin-left: 14%;
-}
-
-#fraise1
-{
-position:absolute;
-top: 25%;
-margin-left: 32%;
-}
-
-#nbr5
-{
-position:absolute;
-top: 28%;
-margin-left: 34%;	
-}
-
-#fr1
-{
-position:absolute;
-top: 25%;
-margin-left: 51%;	
-}
-
-#nbr6
-{
-position:absolute;
-top: 28%;
-margin-left: 55%;	
-}
-
-#ST2
-{
-position:absolute;
-top: 67%;
-margin-left: 13%;	
-}
-
-#ST3
-{
-position:absolute;
-top: 70%;
-margin-left: 12.5%;		
-}
-
-#stand2
-{
-position:absolute;
-top: 67%;
-margin-left: 32%;	
-}
-
-#stand3
-{
-position:absolute;
-top: 70%;
-margin-left: 34%;		
-}
-
-#command
-{
-position: absolute;
-top:13%;
-right: 9%;
-}#nutellapanier
-{
+	
 margin-left:10%;
 width:10%;
 height:0%;
@@ -1019,68 +936,113 @@ top: 26%;
 margin-left: 12%;
 }
 
+
 #nbr4
 {
 position: absolute;
-top: 28%;
+top: 29%;
 margin-left: 14%;
+}
+
+#prixnut
+{
+position: absolute;
+top: 32%;
+left: 13%;	
 }
 
 #fraise1
 {
 position:absolute;
 top: 26%;
-margin-left: 32%;
+left: 32%;
 }
 
 #nbr5
 {
 position:absolute;
-top: 28%;
-margin-left: 34%;	
+top: 29%;
+left: 34%;	
+}
+
+#prixfraise
+{
+position:absolute;
+top: 32%;
+left: 33%;	
 }
 
 #fr1
 {
 position:absolute;
 top: 26%;
-margin-left: 51%;	
+left: 51%;	
 }
 
 #nbr6
 {
 position:absolute;
-top: 28%;
-margin-left: 55%;	
+top: 29%;
+left: 55%;	
+}
+
+#prixfr
+{
+position:absolute;
+top: 32%;
+left: 54%;		
 }
 
 #ST2
 {
 position:absolute;
-top: 68%;
-margin-left: 13%;	
+top: 67%;
+left: 13%;	
 }
 
 #ST3
 {
 position:absolute;
 top: 70%;
-margin-left: 12.5%;		
+left: 12.5%;		
+}
+
+#prixST
+{
+position:absolute;
+top: 73%;
+left: 13%;	
 }
 
 #stand2
 {
 position:absolute;
-top: 68%;
-margin-left: 32%;	
+top: 67%;
+left: 32%;	
 }
 
 #stand3
 {
 position:absolute;
 top: 70%;
-margin-left: 34%;		
+left: 34%;		
 }
+
+#prixstand
+{
+position:absolute;
+top: 73%;
+left: 33%;	
+}
+
+#total
+{
+position:absolute;
+top: 70%;
+left: 50%;	
+}
+
+
 
 #command
 {
@@ -1088,6 +1050,8 @@ position: absolute;
 top:13%;
 right: 9%;
 }
+
+
 
 
 
@@ -1311,12 +1275,16 @@ right: 9%;
 
 #deconnexion
 {
-	float: right;
+position: absolute;
+right:1%;
+top:1%;
 }
 
 #moncompte
 {
-	float: right;
+	position: absolute;
+    right:7%;
+    top:1%;
 	text-align: right;
 	min-width: 120px;
 }
@@ -1597,6 +1565,7 @@ text-align: center;
     text-align: center;	
 }
 
+
 #lieux
 {
 	text-align: center;
@@ -1609,6 +1578,7 @@ text-align: center;
     letter-spacing: .10em;
     text-align: center;	
 }
+
 
 
 
